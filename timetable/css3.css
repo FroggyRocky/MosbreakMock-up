@@ -61,3 +61,13 @@ width: 20%;
 background-color: rgb(143, 40, 40);
 border-radius: 10px;
 }
+.nav__links li a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.nav__links a:hover {
+    border-bottom: 1px solid whitesmoke;
+transition: 100ms ease-in;
+color: rgb(211, 211, 211);
+cursor: pointer;
+}

@@ -6,7 +6,7 @@
 .header__main {
     padding-bottom: 4%;
     background-size: cover;
-    height: 120%;
+    min-height: 120vh;
     width: 100%;
     background-image: url("./foto/мос2.jpg");
 }
@@ -17,6 +17,7 @@
     font-family: 'Dosis', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-weight: 1000;
+font-size: 1.5em;
 }
 .nav__bar {
     width: 50%;
@@ -50,7 +51,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-evenly;
     background-image: url("./foto/IMG_7134.JPG");
-
+    font-family: 'Limelight', cursive;
 }
 .about__container div {
     width: auto;
@@ -99,4 +100,6 @@ filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104
 .header__main li a {
     text-decoration: none;
     color: whitesmoke;
+    font-size: 1em;
 }
+
