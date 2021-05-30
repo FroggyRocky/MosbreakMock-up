@@ -17,7 +17,8 @@
 }
 .container__schedule h4 {
     text-align: center;
-    margin: 15px 0 10px 0;
+    margin: 10px 0 25px 0;
+    color: rgb(211, 211, 211);;
 }
 .label p {
     position: relative;
@@ -65,8 +66,11 @@ border-radius: 10px;
 .nav__links__schedule {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 45px;
+    margin-top: 50px;
     text-decoration: none;
     list-style: none;
     color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+font-size: 1em;
 }
