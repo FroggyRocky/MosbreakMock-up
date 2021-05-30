@@ -14,7 +14,7 @@
     padding: 0px 1em;
     box-sizing: content-box;
     background-color: rgba(161, 161, 161, 0.5);
-    display: inline-block;
+    display: flex;
     font-family: 'Londrina Solid', cursive;
 }
 .main__form {
