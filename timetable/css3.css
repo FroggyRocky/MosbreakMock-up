@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container__schedule {
     background-image: url("../foto/IMG_7134.JPG");
 }
@@ -61,13 +62,11 @@ width: 20%;
 background-color: rgb(143, 40, 40);
 border-radius: 10px;
 }
-.nav__links li a {
+.nav__links__schedule {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-}
-.nav__links a:hover {
-    border-bottom: 1px solid whitesmoke;
-transition: 100ms ease-in;
-color: rgb(211, 211, 211);
-cursor: pointer;
+    list-style: none;
+    color: whitesmoke;
 }

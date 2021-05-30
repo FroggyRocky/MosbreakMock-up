@@ -29,6 +29,10 @@ list-style: none;
 display: flex;
 justify-content: space-evenly;
 }
+.nav__links li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
  .nav__links li a:hover {
 border-bottom: 1px solid whitesmoke;
 transition: 100ms ease-in;
@@ -97,9 +101,5 @@ footer {
 .logo__socialmedia img:hover {
 filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
-.header__main li a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 1em;
-}
+
 
