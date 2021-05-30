@@ -3,22 +3,24 @@
     margin: 0;
 }
 .container__form {
+    max-width:35%;
     min-height: 100%;
-    
     color: rgba(0, 0, 0, 0.671); 
     position: relative;
     border-radius: 5%;
     top: -25px;
-    left: 95px;
+    left: 85px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgb(228, 228, 228) 0px 8px 16px -8px;
     padding: 0px 1em;
     box-sizing: content-box;
     background-color: rgba(161, 161, 161, 0.5);
     display: flex;
+    justify-content: center;
     font-family: 'Londrina Solid', cursive;
 }
+
 .main__form {
-    width: 600px;
+   max-width: 800px;
     display: flex;
     flex-direction: column;
     font-size: 1.5em;
